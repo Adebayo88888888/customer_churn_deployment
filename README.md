@@ -12,10 +12,9 @@ Retaining existing customers is significantly cheaper than acquiring new ones, y
 
 The goal of this project is to **build, evaluate, and deploy** a machine learning model that predicts the likelihood of churn for each customer, allowing businesses to take proactive retention actions.
 
+---
 
 ## 🗂️ Data Source
-
----
 
 The dataset used in this project comes from a **telecommunications customer dataset**, containing customer-level information such as:
 
@@ -31,19 +30,19 @@ The dataset was preprocessed and cleaned in a Jupyter Notebook environment befor
 ## 🔬 Process Overview
 
 
-
 Below is the end-to-end workflow from raw data to deployment:
 
 ```mermaid
-flowchart LR
-    A[Data Source (CSV)] --> B[Data Preprocessing & EDA (Jupyter Notebook)]
-    B --> C[Feature Engineering & Encoding]
-    C --> D[Model Training (Logistic Regression)]
-    D --> E[Model Evaluation (AUC, Accuracy, Recall)]
-    E --> F[Model Serialization (Pickle/Binary)]
-    F --> G[Deployment with FastAPI]
-    G --> H[Containerization (Docker)]
-    H --> I[AWS Elastic Beanstalk Deployment]
+
+flowchart TD
+    A["Data Source (CSV)"] --> B["Data Preprocessing & EDA (Jupyter Notebook)"]
+    B --> C["Feature Engineering & Encoding"]
+    C --> D["Model Training (Logistic Regression)"]
+    D --> E["Model Evaluation (AUC, Accuracy, Recall)"]
+    E --> F["Model Serialization (Pickle/Binary)"]
+    F --> G["Deployment with Flask"]
+    G --> H["Containerization (Docker)"]
+    H --> I["AWS Elastic Beanstalk Deployment"]
 ```
 
 ⚙️ Solution Walkthrough
@@ -60,9 +59,9 @@ Numerical features were scaled to standardize model input.
 Key features included:
 `tenure`, `MonthlyCharges`, `ContractType`, `InternetService`, `PaymentMethod`, etc.
 
-2. Model Building
-
 ---
+
+2. Model Building
 
 A Logistic Regression model was trained to classify customers as:
 
@@ -78,9 +77,9 @@ Speed (lightweight and efficient for real-time predictions)
 
 Robustness with small-to-medium datasets
 
-3. Model Evaluation
-
 ---
+
+3. Model Evaluation
 
 Accuracy:	0.82
 AUC (ROC):	0.91
@@ -89,9 +88,9 @@ Precision:	0.79
 
 These results indicate strong discriminative ability to identify customers likely to churn.
 
-4. Deployment Workflow
-
 ---
+
+4. Deployment Workflow
 
 * The trained model was serialized as a .bin file.
 
@@ -116,10 +115,9 @@ These results indicate strong discriminative ability to identify customers likel
 | **Version Control** | Git & GitHub |
 
 
+---
 
 ## 🌍 Real-World Applications
-
----
 
 
 ### 📞 Telecommunications
@@ -147,10 +145,9 @@ These results indicate strong discriminative ability to identify customers likel
 - Trigger **gas fee rebates, trading incentives, or loyalty NFTs** to encourage continued engagement.  
 - Strengthen **ecosystem health metrics** by retaining valuable wallet addresses and active users.  
 
+---
 
 🧠 Business Impact
-
----
 
 
 1. By integrating this model into a company’s CRM or marketing pipeline:
