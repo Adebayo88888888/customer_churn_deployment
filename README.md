@@ -45,7 +45,7 @@ flowchart TD
     H --> I["AWS Elastic Beanstalk Deployment"]
 ```
 
-⚙️ Solution Walkthrough
+## ⚙️ Solution Walkthrough
 
 ---
 
@@ -82,8 +82,11 @@ Robustness with small-to-medium datasets
 3. Model Evaluation
 
 Accuracy:	0.82
+
 AUC (ROC):	0.91
+
 Recall:	0.87
+
 Precision:	0.79
 
 These results indicate strong discriminative ability to identify customers likely to churn.
@@ -147,7 +150,7 @@ These results indicate strong discriminative ability to identify customers likel
 
 ---
 
-🧠 Business Impact
+## 🧠 Business Impact
 
 
 1. By integrating this model into a company’s CRM or marketing pipeline:
