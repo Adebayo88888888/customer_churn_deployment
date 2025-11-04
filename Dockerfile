@@ -11,4 +11,4 @@ COPY ["predict.py", "model_C=1.0.bin", "./"]
 
 EXPOSE 8080
 
-ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:8080", "predict:app"]
+ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict:app"]
