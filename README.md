@@ -150,7 +150,7 @@ These results indicate strong discriminative ability to identify customers likel
 
 ---
 
-## 🧠 Business Impact
+##  Business Impact
 
 
 1. By integrating this model into a company’s CRM or marketing pipeline:
