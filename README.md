@@ -163,3 +163,6 @@ These results indicate strong discriminative ability to identify customers likel
 
 5. This solution transforms data into a decision-making tool that helps companies retain customers, cut costs, and improve lifetime value.
 
+
+Thanks.
+
