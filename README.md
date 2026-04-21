@@ -35,7 +35,8 @@ Below is the end-to-end workflow from raw data to deployment:
 ```mermaid
 
 flowchart TD
-    A["Data Source (CSV)"] --> B["Data Preprocessing & EDA (Jupyter Notebook)"]
+    A["Data Source
+(CSV)"] --> B["Data Preprocessing & EDA (Jupyter Notebook)"]
     B --> C["Feature Engineering & Encoding"]
     C --> D["Model Training (Logistic Regression)"]
     D --> E["Model Evaluation (AUC, Accuracy, Recall)"]
