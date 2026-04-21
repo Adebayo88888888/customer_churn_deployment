@@ -38,7 +38,8 @@ flowchart TD
     A["Data Source
 (CSV)"] --> B["Data Preprocessing & EDA
 (Jupyter Notebook)"]
-    B --> C["Feature Engineering & Encoding"]
+    B --> C["Feature Engineering &
+Encoding"]
     C --> D["Model Training
 (Logistic Regression)"]
     D --> E["Model Evaluation
@@ -47,7 +48,8 @@ flowchart TD
 (Pickle/Binary)"]
     F --> G["Deployment with Flask"]
     G --> H["Containerization (Docker)"]
-    H --> I["AWS Elastic Beanstalk Deployment"]
+    H --> I["AWS Elastic Beanstalk
+Deployment"]
 ```
 
 ## ⚙️ Solution Walkthrough
