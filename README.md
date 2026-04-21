@@ -36,11 +36,15 @@ Below is the end-to-end workflow from raw data to deployment:
 
 flowchart TD
     A["Data Source
-(CSV)"] --> B["Data Preprocessing & EDA (Jupyter Notebook)"]
+(CSV)"] --> B["Data Preprocessing & EDA
+(Jupyter Notebook)"]
     B --> C["Feature Engineering & Encoding"]
-    C --> D["Model Training (Logistic Regression)"]
-    D --> E["Model Evaluation (AUC, Accuracy, Recall)"]
-    E --> F["Model Serialization (Pickle/Binary)"]
+    C --> D["Model Training
+(Logistic Regression)"]
+    D --> E["Model Evaluation
+(AUC, Accuracy, Recall)"]
+    E --> F["Model Serialization
+(Pickle/Binary)"]
     F --> G["Deployment with Flask"]
     G --> H["Containerization (Docker)"]
     H --> I["AWS Elastic Beanstalk Deployment"]
