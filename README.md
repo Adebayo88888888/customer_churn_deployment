@@ -1,7 +1,7 @@
 # Customer Churn Prediction
 
 
-This project demonstrates the complete ML lifecycle, from raw data to an automated, production-ready churn prediction API showing how machine learning can create real-world business value through insight, foresight, and intelligent automation.
+This project demonstrates the complete ML lifecycle, from raw data to a production-ready churn prediction API showing how machine learning can create real-world business value through insight, foresight, and intelligent automation.
 
 
 ## 🧩 Problem Statement
